@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+
+
+
+.cabecalho{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho h1{
+    font-size: 60px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+.botoesmenu{
+    font-family: 'Anton', sans-serif;
+    border: none;
+    background: none;
+    font-size: 30px;
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.botoesmenu:hover{
+    color: #582081;
+    transition: 0.5s;
+}
+
+
+
+.fundoin{
+    background-image: url(Imagens/operador.png);
+    font-family: 'Anton', sans-serif;
+    padding-top: 5%;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.fundoin h1{
+    font-size: 70px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.fundoin h3{
+    margin-top: 3%;
+    font-size: 22px;
+
+}
+
+.fundoin button{
+    margin-top: 3%;
+    font-size: 22px;
+    background-color: #5E17EB;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-family: 'Anton', sans-serif;
+}
+
+.fundoin button:hover{
+    background-color:#582081;
+    transition: 0.5s;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    
+}
+
+.central hr{
+    background-color: black;
+    height: 2px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.central h1{
+    display: flex;
+    justify-content: left;
+    padding-top: 3%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    font-family: 'Anton', sans-serif;
+}
+
+.central p{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    padding-top: 1%;
+    font-size: 25px;
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.textos{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    margin: 0 auto;
+    background-color:#F6F6F6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#logo{
+    width: 150px;
+    height: 90px;
+}
+
+#atual{
+    color: #582081;
+    
+}
+
+#mulhe{
+    height: 500px;
+    border: 10px solid white;
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-top: 4%;
+    box-shadow: 20px 0px 20px gray, -20px 0px 20px gray ;
+}
+
+#quasdrado{
+    display: flex;
+    margin-top: 5%;
+    background-color:#F6F6F6;
+    flex-direction: column;
+}
+
+#quadrado{
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 22px;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+#quadradois{
+    display: flex;
+    background-color: white;
+    font-size: 22px;
+}
+
+#texto1{
+    border: 2px none white;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#texto2{
+    border: 2px none white;
+    border-right: 2px solid black;
+    width: 55%;
+    text-align: center;
+}
+
+#texto3{
+    border: 2px none white;
+    width: 45%;
+    text-align: center;
+}
+
+.quadrado2{
+    background-color:white;
+    font-family: 'Anton', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.central2{
+    background-color:#F6F6F6;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 10%;
+    text-align: center;
+
+}
+
+.central2 h1{
+    padding-top: 5%;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.central2 p{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fim{
+    background-image: url(Imagens/Callvendas.jpg);
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.fim h1{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+.fim button{
+        margin-top: 3%;
+        font-size: 22px;
+        background-color: #5E17EB;
+        color: white;
+        border: none;
+        height: 50px;
+        width: 150px;
+        font-family: 'Anton', sans-serif;
+        transition: 0.5s;
+}
+
+.fim button:hover{
+    background-color:#582081;
+    transition: 0.5s;
+}
+
+.fim2{
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.endereço{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.endereço h4{
+    font-size: 25px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.email h4{
+    font-size: 25px;
+}
+
+.telefone{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.telefone h4{
+    font-size: 25px;
+}
+
+
+
+
+
+.fundoon{
+    background-image: url(Imagens/Nos.jpg);
+    font-family: 'Anton', sans-serif;
+    padding-top: 5%;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.fundoon h1{
+    font-size: 70px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.fundoon h3{
+    margin-top: 3%;
+    font-size: 22px;
+
+}
+
+.topico{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+.topico hr{
+    background-color: black;
+    width: 2px;
+   
+}
+
+.union{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    flex-direction: column;
+    padding-left: 10%;
+    font-size: 25px;
+    text-align: center;
+    width: 25%;
+    margin-right: 2%;
+}
+
+.union h1{
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+
+.union2{
+    padding-right: 10%;
+    font-size: 25px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.union2 h2{
+    margin-top: 2%;
+}
+
+.unificar{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 3%;
+
+}
+
+.unificar p{
+    color: black;
+}
+
+.unificar p:hover{
+    color: #5E17EB;
+}
+
+
+
+.fundoun{
+    background-image: url(Imagens/Van.png);
+    padding-top: 5%;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.fundoun h1{
+    font-size: 70px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.fundoun h3{
+    margin-top: 3%;
+    font-size: 22px;
+
+}
+
+.vancenter{
+    display: flex;
+    background-color: #F6F6F6;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    padding-top: 1%;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+}
+
+.vancenter h1{
+    margin-bottom: 5%;
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.conjunto{
+    padding-top: 10%;
+    display: flex;
+    background-color: #F6F6F6;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    padding-bottom: 10%;
+    font-family: 'Anton', sans-serif;
+}
+
+.conjunto2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 50%;
+    height: fit-content;
+    border: 2px none black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.conjunto3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    width: 50%;
+}
+
+.consultar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(Imagens/callimagem.png);
+    height: 520px;
+    color: white;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+}
+
+.consultar h1{
+    font-size: 40px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.consultar p{
+    font-size: 20px;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+
+.listas{
+    background-color: #F6F6F6;
+}
+
+
+.meio{
+    display: flex;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+
+.conjuntom{
+    display: flex;
+    text-align: start;
+    font-size: 25px;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    font-family: 'Anton', sans-serif;
+}
+
+.conjuntom hr{
+    height: 200px;
+    background-color: black;
+    width: 3px;
+}
+
+.fundoan{
+    background-image: url(Imagens/contatar.jpg);
+    padding-top: 5%;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.fundoan h1{
+    font-size: 30px;
+    width: 80%;
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+    margin-right: 10%;
+}
+
+.quadrado3{
+    display: flex;
+    background-color: #F6F6F6;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.quadrado3 h3{
+    margin-bottom: 1%;
+}
+
+.inputcontatos{
+    background-color: white;
+    margin-right: 10%;
+    width: 450px;
+    font-size: 20px;
+    border: 20px solid white;
+    font-family: 'Anton', sans-serif;
+}
+.inputcontatos h1{
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+.inputcontatos hr{
+    margin-bottom: 3%;
+}
+
+.inputcontatos h3{
+    margin-bottom: 1%;
+}
+
+.inputcontatos p{
+    margin-bottom: 3%;
+}
+
+
+.fim3{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+}
+.conversas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 2%;
+    width: 30%;
+    font-family: 'Anton', sans-serif;
+}
+
+.conversas h4{
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+.conversas label{
+    margin-bottom: 10%;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 2%;
+    width: 30%;
+    font-family: 'Anton', sans-serif;
+}
+
+.servicos h4{
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+.servicos label{
+    margin-bottom: 10%;
+}
+
+.inscricao{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 2%;
+    width: 30%;
+    font-family: 'Anton', sans-serif;
+}
+
+.inscricao h4{
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+.inputcadastrar{
+    width: 40%;
+    align-items: center;
+}
+
+.inputcadastrar h3{
+    font-size: medium;
+}
+
+.inputcadastrar h2{
+    font-size: x-large;
+    margin-bottom: 2%;
+}
+
+.inputcadastrar input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.inputcadastrar button{
+    background-color: #5E17EB;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 30px;
+}
+
+.inputcadastrar button:hover{
+    background-color:#582081;
+    transition: 0.5s;
+}
+
+#nome{
+    display: flex;
+}
+
+#email{
+    display: flex;
+}
+
+.inputcadastrarsepara{
+    display: flex;
+    flex-direction: column;
+    width: 98.6%;
+}
+
+#sepasra{
+    margin-right: 1%;
+}
+
+#assunto{
+    height: 50px;
+}
+
+#mensagem{
+    height: 130px;
+}
+
+.botaestilo{
+    border-radius: 25px;
+    transition: 0.5s;
+    font-family: 'Anton', sans-serif;
+}
+
+.botaestilo:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
